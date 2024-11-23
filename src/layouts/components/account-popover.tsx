@@ -52,6 +52,8 @@ export function AccountPopover({ data = [], sx, ...other }: AccountPopoverProps)
 
   return (
     <>
+        <Typography variant='h6'>David Linch</Typography>
+
       <IconButton
         onClick={handleOpenPopover}
         sx={{
